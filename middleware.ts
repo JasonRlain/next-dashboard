@@ -18,7 +18,7 @@ import { getToken } from "next-auth/jwt";
 
 export const config = {
   matcher: [
-    "/((?!login|api/auth/signin|api/auth/callback|_next/static|_next/image).*)",
+    "/((?!login|signup|api/auth/signin|api/auth/callback|_next/static|_next/image).*)",
     // "/dashboard",
   ],
 };
